@@ -1,0 +1,22 @@
+{
+  "name": "flight-ticket-booking",
+  "version": "1.0.0",
+  "description": "{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "jest --verbose --coverage",
+    "format": "npx prettier .prettierrc --write \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/emotionl/flight-ticket-booking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6"
+  }
+}
